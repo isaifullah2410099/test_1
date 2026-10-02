@@ -16,7 +16,9 @@ git add .
 git commit -m "describe what you changed"
 git push
 
+then check
 
+git status
 
 
 
