@@ -21,6 +21,17 @@ then check
 git status
 
 
+## Login
+
+Username: `admin`
+
+Password: `1234`
+
+
+user name: 011
+
+---
+
 
 
 
@@ -56,15 +67,7 @@ The idea is a student collaboration website where students can post projects, re
 - Admin can edit/delete users
 - Admin can edit/delete projects
 
-## Important Admin Login
 
-Username: `admin`
-
-Password: `1234`
-
-This login is hard-coded only because this is a classroom demonstration project.
-
----
 
 # Method 1 - GitHub Codespaces
 
