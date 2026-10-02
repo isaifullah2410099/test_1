@@ -1,13 +1,20 @@
 run commands:
 
-At the top/left of VS Code Codespaces, press:
-Ctrl + Shift + P
+If you want to make sure the database is ready first, you can optionally run:
+php -m | grep -i mysqli
 
-Type:
-Rebuild Container
+Then:
+mysql -h db -u uiu -puiu123 uiu_collabhub -e "SHOW TABLES;"
 
-Choose:
-Codespaces: Rebuild Container
+Then start the site:
+php -S 0.0.0.0:8000
+
+
+push changes:
+
+git add .
+git commit -m "describe what you changed"
+git push
 
 
 
