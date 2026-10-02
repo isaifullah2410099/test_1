@@ -12,11 +12,18 @@ php -S 0.0.0.0:8000
 
 push changes:
 
+before pushing the changes add these:
+
+sudo apt-get update
+sudo apt-get install -y git-lfs
+
+then these:
+
 git add .
 git commit -m "describe what you changed"
 git push
 
-then check
+then check:
 
 git status
 
