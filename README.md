@@ -1,3 +1,27 @@
+run commands:
+
+At the top/left of VS Code Codespaces, press:
+Ctrl + Shift + P
+
+Type:
+Rebuild Container
+
+Choose:
+Codespaces: Rebuild Container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # UIU CollabHub
 
 A simple class project made with HTML, CSS, JavaScript, PHP and MySQL/MariaDB.
